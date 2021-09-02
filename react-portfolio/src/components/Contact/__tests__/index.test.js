@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { render, cleanup, getByTestId } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Contact from '..';
 
@@ -14,8 +14,10 @@ describe('Contact component', () => {
 	it('matches snapshot DOM node structure', () => {
 		// render Contact
 		const { asFragment } = render(<Contact />);
-		expect(asFragment()).toMatchSnapshot();
+
 	});
 })
+
+
 
 

@@ -13,19 +13,21 @@ function Nav() {
 	};
 
 	return (
-		<header data-testid="header" className="flex-row px-1">
+		<header className="flex-row px-1">
 			<h1>
-				<span role="img"> Mark Sherman </span>
+				<a data-testid="link" href="/">
+					<span role="img"></span> Mark Sherman
+				</a>
 			</h1>
 			<nav>
 				<ul className="flex-row">
 					<li className="mx-2">
-						<a href="#about" onClick={() => handleClick()}>
+						<a data-testid="about" href="#about" onClick={() => handleClick()}>
 							About Me
 						</a>
 					</li>
 					<li className={"mx-2"}>
-						<a href="#contact" onClick={() => handleClick()}>
+						<a data-testid="contact" href="#contact" onClick={() => handleClick()}>
 							Contact
 						</a>
 					</li>

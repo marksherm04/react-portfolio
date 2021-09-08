@@ -13,7 +13,7 @@ function Resume() {
 			</div>
 			<div>
 				<h5>Front-End Proficiencies</h5>
-				<ol>
+				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>JavaScript</li>
@@ -21,21 +21,21 @@ function Resume() {
 					<li>Pure.css</li>
 					<li>jQuery</li>
 					<li>React</li>
-				</ol>
+				</ul>
 
 				<br></br>
 
 				<h5>Back-End Proficiencies</h5>
-				<ol>
+				<ul>
 					<li>Node.js</li>
 					<li>Express.js</li>
 					<li>REST APIs</li>
 					<li>JavaScript</li>
 					<li>Progressive Web Applications (PWA)</li>
-				</ol>
+				</ul>
 
 				<br></br>
-				<ol>
+				<ul>
 					<h5>Database Technologies</h5>
 					<li>Sequelize</li>
 					<li>MySQL</li>
@@ -43,7 +43,7 @@ function Resume() {
 					<li>GraphQL</li>
 					<li>MongoDB</li>
 					<li>Mongoose</li>
-				</ol>
+				</ul>
 			</div>
 		</section>
 	);

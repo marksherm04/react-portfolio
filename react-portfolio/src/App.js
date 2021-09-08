@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
+import Project from './components/Project';
 
 function App() {
 

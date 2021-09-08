@@ -12,6 +12,7 @@ function App() {
   // page will auto start at the About section with useState
   const [currentLink, setCurrentLink] = useState("about");
 
+  // checks to see what link is clicked and generates that page
   const switchLink = () => {
     switch (currentLink) {
       case "about":
@@ -29,12 +30,12 @@ function App() {
 
   return (
     <div className="App">
-      <Nav></Nav>
-      <main>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
-        <About></About>
-      </main>
+      <Header currentLink={currentLink} setCurrentLink={setCurrentLink}></Header>
+      </div>
+      <div>
+         <main>{switchLink()}</main>
+        </div>
+    
     </div>
   );
 }

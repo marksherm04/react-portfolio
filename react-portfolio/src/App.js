@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Project from './components/Project';
+import Resume from './components/Resume';
 
 function App() {
   // page will auto start at the About section with useState
@@ -30,12 +31,15 @@ function App() {
 
   return (
     <div className="App">
-      <Header currentLink={currentLink} setCurrentLink={setCurrentLink}></Header>
+      <div>
+        <Header currentLink={currentLink} setCurrentLink={setCurrentLink}></Header>
       </div>
       <div>
-         <main>{switchLink()}</main>
-        </div>
-    
+        <main>{switchLink()}</main>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

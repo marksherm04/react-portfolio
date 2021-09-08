@@ -52,9 +52,9 @@ function Portfolio() {
 	return (
 		<section>
 			<div className="align">
-				<h1 className="page-header">Portfolio</h1>
+				<h1 className="header">Portfolio</h1>
 			</div>
-			<div>
+			{/* <div>
 				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project topProject={topProject[0]}></Project>
@@ -79,7 +79,7 @@ function Portfolio() {
 						<Project topProject={topProject[5]}></Project>
 					</li>
 				</ul>
-			</div>
+			</div> */}
 		</section>
 	);
 }

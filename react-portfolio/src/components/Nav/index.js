@@ -5,7 +5,7 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 function Nav() {
 
 	const categories = [
-		{ name: 'projects', description: 'Photos of different projects of mine' }
+		{ name: 'portfolio', description: 'Photos of different projects of mine' }
 	];
 
 	const handleClick = () => {
@@ -15,7 +15,7 @@ function Nav() {
 	return (
 		<header className="flex-row px-1">
 			<h1>
-				<a data-testid="link" href="/">
+				<a data-testid="link">
 					<span role="img"></span> Mark Sherman
 				</a>
 			</h1>
@@ -33,7 +33,7 @@ function Nav() {
 					</li>
 					{categories.map((category) => (
 						<li className="mx-1" key={category.name} >
-							<a href="#projects" onClick={() => { handleClick(); }}>
+							<a href="#portfolio" onClick={() => { handleClick(); }}>
 								{capitalizeFirstLetter(category.name)}
 							</a>
 						</li>

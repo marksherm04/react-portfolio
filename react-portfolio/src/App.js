@@ -2,15 +2,18 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
 
 function App() {
+
   return (
     <div className="App">
       <Nav></Nav>
       <main>
-        <Projects></Projects>
+        <Portfolio></Portfolio>
         <Contact></Contact>
+        <About></About>
       </main>
     </div>
   );

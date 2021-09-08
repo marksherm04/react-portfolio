@@ -1,18 +1,18 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from "../../assets/background/desk-background.jpg";
+import photo from "../../assets/images/travel-bucket.jpg";
 
 // {/* NEED TO IMPORT PROJECTS HERE ABOVE */}
 
-function Projects(props) {
-	const currentProject = {
+function Portfolio(props) {
+	const currentPortfolio = {
 		name: "Travel Bucket",
 		description: "This is a social application where bloggers and users can share their trips as well as ask and answer questions travel related.",
 	};
 	return (
 		<section>
-			<h1>{capitalizeFirstLetter(currentProject.name)}</h1>
-			<p>{currentProject.name}</p>
+			<h1>{capitalizeFirstLetter(currentPortfolio.name)}</h1>
+			{/* <p>{currentPortfolio.name}</p> */}
 			{/* NEED TO IMPORT PROJECTS HERE */}
 			<div className="flex-row">
 				<img 
@@ -25,4 +25,4 @@ function Projects(props) {
 	);
 } 
 
-export default Projects;
+export default Portfolio;

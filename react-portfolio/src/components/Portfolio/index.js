@@ -54,32 +54,32 @@ function Portfolio() {
 			<div className="align">
 				<h1 className="header">Portfolio</h1>
 			</div>
-			{/* <div>
+			<div>
 				<ul className="flex-row mobile-row">
 					<li className="padding">
-						<Project topProject={topProject[0]}></Project>
+						<Project topProjects={topProjects[0]}></Project>
 					</li>
 					<li className="padding">
-						<Project topProject={topProject[1]}></Project>
+						<Project topProjects={topProjects[1]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row">
 					<li className="padding">
-						<Project topProject={topProject[2]}></Project>
+						<Project topProjects={topProjects[2]}></Project>
 					</li>
 					<li className="padding">
-						<Project topProject={topProject[3]}></Project>
+						<Project topProjects={topProjects[3]}></Project>
 					</li>
 				</ul>
 				<ul className="flex-row mobile-row">
 					<li className="padding">
-						<Project topProject={topProject[4]}></Project>
+						<Project topProjects={topProjects[4]}></Project>
 					</li>
 					<li className="padding">
-						<Project topProject={topProject[5]}></Project>
+						<Project topProjects={topProjects[5]}></Project>
 					</li>
 				</ul>
-			</div> */}
+			</div>
 		</section>
 	);
 }

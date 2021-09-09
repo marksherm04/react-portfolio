@@ -8,7 +8,7 @@ function About() {
 			</div>
 			<div className="align">
 				<img
-					src={require('../../assets/images/mark-headshot.jpg')}
+					src={process.env.PUBLIC_URL + '/assets/images/mark-headshot.jpg'}
 					alt="mark-sherman"
 					className="my-photo"
 				/>

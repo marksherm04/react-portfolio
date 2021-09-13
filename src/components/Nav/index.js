@@ -18,7 +18,7 @@ function Nav(props) {
 				 <li className={currentLink === "resume" ? "rounded bg-blue-200 hover:bg-yellow-300 navActive" : "mx-8"}>
 					 <span onClick={() => setCurrentLink("resume")}>Resume</span>
 				 </li>
-				 <li className={currentLink === "name" ? "text-right navActive" : "mx-48"}>
+				 <li className={currentLink === "name" ? "navActive" : "mx-48"}>
 					 <span onClick={() => setCurrentLink("about")}>Mark Sherman 👨‍💻</span>
 				 </li>
 			 </ul>

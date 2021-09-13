@@ -12,7 +12,7 @@ function Resume() {
 				</a>
 			</div> */}
 			<div className="p-8 bg-gradient-to-r from-yellow-300 via-blue-200 to-yellow-300">
-				<h3 className="text-xl underline">Front-End Proficiencies</h3>
+				<h3 className="text-xl underline text-blue-700">Front-End Proficiencies</h3>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
@@ -25,7 +25,7 @@ function Resume() {
 
 				<br></br>
 
-				<h3 className="text-xl underline">Back-End Proficiencies</h3>
+				<h3 className="text-xl underline text-blue-700">Back-End Proficiencies</h3>
 				<ul>
 					<li>Node.js</li>
 					<li>Express.js</li>
@@ -36,7 +36,7 @@ function Resume() {
 
 				<br></br>
 				<ul>
-					<h3 className="text-xl underline">Database Technologies</h3>
+					<h3 className="text-xl underline text-blue-700">Database Technologies</h3>
 					<li>Sequelize</li>
 					<li>MySQL</li>
 					<li>NoSQL</li>

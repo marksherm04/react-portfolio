@@ -5,7 +5,7 @@ function Nav(props) {
 	
 	 return (
 		 <nav>
-			 <ul className="text-2xl font-bold text-blue-500 flex py-10 px-4 font-serif cursor-pointer">
+			 <ul className="text-2xl font-bold text-blue-500 flex py-10 px-4 font-serif cursor-pointer static">
 				 <li className={currentLink === "about" ? "rounded bg-blue-200 hover:bg-yellow-300 navActive" : "mx-6"}>
 					 <span onClick={() => setCurrentLink('about')}>About Me</span>
 				 </li>

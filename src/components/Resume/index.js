@@ -4,15 +4,15 @@ function Resume() {
 	return (
 		<section>
 			<div className="align">
-				<h1 className="header">My Resume</h1>
+				<h1 className="text-3xl font-bold text-blue-700 p-8 bg-gradient-to-r from-blue-200 via-yellow-300 to-blue-200">My Resume</h1>
 			</div>
 			{/* <div>
 				<a href={require("../../assets/documents/mark-resume.PDF")} download>
 					<h4>Download Resume</h4>
 				</a>
 			</div> */}
-			<div>
-				<h5>Front-End Proficiencies</h5>
+			<div className="p-8 bg-gradient-to-r from-yellow-300 via-blue-200 to-yellow-300">
+				<h3 className="text-xl underline">Front-End Proficiencies</h3>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
@@ -25,7 +25,7 @@ function Resume() {
 
 				<br></br>
 
-				<h5>Back-End Proficiencies</h5>
+				<h3 className="text-xl underline">Back-End Proficiencies</h3>
 				<ul>
 					<li>Node.js</li>
 					<li>Express.js</li>
@@ -36,7 +36,7 @@ function Resume() {
 
 				<br></br>
 				<ul>
-					<h5>Database Technologies</h5>
+					<h3 className="text-xl underline">Database Technologies</h3>
 					<li>Sequelize</li>
 					<li>MySQL</li>
 					<li>NoSQL</li>

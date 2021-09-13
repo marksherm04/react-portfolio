@@ -16,7 +16,7 @@ function About() {
 				<img
 					src={process.env.PUBLIC_URL + '/assets/images/mark-headshot.jpg'}
 					alt="mark-sherman"
-					className="p-28"
+					className="p-28 static"
 				/>
 			</div>
 		</section>

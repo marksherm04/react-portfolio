@@ -5,18 +5,21 @@ function Nav(props) {
 	
 	 return (
 		 <nav>
-			 <ul className="flex-row mobile-view">
-				 <li className={currentLink === "about" ? "mx-2 navActive" : "mx-2"}>
+			 <ul className="text-2xl font-bold text-blue-500 flex py-10 px-4 font-serif">
+				 <li className={currentLink === "about" ? "rounded bg-blue-200 hover:bg-yellow-300 navActive" : "mx-6"}>
 					 <span onClick={() => setCurrentLink('about')}>About Me</span>
 				 </li>
-				 <li className={currentLink === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+				 <li className={currentLink === "portfolio" ? "rounded bg-blue-200 hover:bg-yellow-300 navActive" : "mx-6"}>
 					 <span onClick={() => setCurrentLink("portfolio")}>Portfolio</span>
 				 </li>
-				 <li className={currentLink === "contact" ? "mx-2 navActive" : "mx-2"}>
+				 <li className={currentLink === "contact" ? "rounded bg-blue-200 hover:bg-yellow-300 navActive" : "mx-6"}>
 					 <span onClick={() => setCurrentLink("contact")}>Contact</span>
 				 </li>
-				 <li className={currentLink === "resume" ? "mx-2 navActive" : "mx-2"}>
+				 <li className={currentLink === "resume" ? "rounded bg-blue-200 hover:bg-yellow-300 navActive" : "mx-8"}>
 					 <span onClick={() => setCurrentLink("resume")}>Resume</span>
+				 </li>
+				 <li className={currentLink === "name" ? "text-right navActive" : "mx-48"}>
+					 <span onClick={() => setCurrentLink("about")}>Mark Sherman 👨‍💻</span>
 				 </li>
 			 </ul>
 		 </nav>

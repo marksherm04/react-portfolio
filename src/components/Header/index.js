@@ -5,10 +5,7 @@ function Header(props) {
 	const { currentLink, setCurrentLink } = props;
 
 	return (
-		<header>
-			<div>
-				<h1 className="header">Mark Sherman</h1>
-			</div>
+		<header className="bg-yellow-400" >
 			<div>
 				<Nav
 					currentLink={currentLink}

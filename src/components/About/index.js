@@ -4,7 +4,7 @@ function About() {
 	return (
 		<section>
 			<div className="align" id="about">
-				<h1 className="header">About Me</h1>
+				<h1 className="header"></h1>
 			</div>
 			<div className="align">
 				<img
@@ -14,6 +14,7 @@ function About() {
 				/>
 			</div>
 			<div>
+				<h2>About Me</h2>
 				<p>
 					I am finishing up my MERN Full Stack certification from Bulter Bootcamp 6 month program.
 					I have learned many technologies over the past 6 months and ready to put them into practice.

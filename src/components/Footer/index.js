@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
 	return (
 		<footer className="footer">
-			<div>
+			{/* <div>
 				<a
 					href="https://github.com/marksherm04"
 					target="_blank"
@@ -15,8 +15,8 @@ function Footer() {
 						className="icon"
 					></img>
 				</a>
-			</div>
-			<div>
+			</div> */}
+			{/* <div>
 				<a
 					href="https://www.linkedin.com/in/mark-sherman-82a072208/"
 					target="_blank"
@@ -28,8 +28,8 @@ function Footer() {
 						className="icon"
 					></img>
 				</a>
-			</div>
-			<div>
+			</div> */}
+			{/* <div>
 				<a
 					href="https://www.linkedin.com/in/mark-sherman-82a072208/"
 					target="_blank"
@@ -41,8 +41,8 @@ function Footer() {
 						className="icon"
 					></img>
 				</a>
-			</div>
-			<div>
+			</div> */}
+			{/* <div>
 				<a
 					href="https://twitter.com/marksherman6"
 					target="_blank"
@@ -54,7 +54,7 @@ function Footer() {
 						className="icon"
 					></img>
 				</a>
-			</div>
+			</div> */}
 
 		</footer>
 	);

@@ -6,11 +6,11 @@ function Resume() {
 			<div className="align">
 				<h1 className="header">My Resume</h1>
 			</div>
-			<div>
-				<a href={require("../../assets/documents/Mark Sherman Resume.PDF")} download>
+			{/* <div>
+				<a href={require("../../assets/documents/mark-resume.PDF")} download>
 					<h4>Download Resume</h4>
 				</a>
-			</div>
+			</div> */}
 			<div>
 				<h5>Front-End Proficiencies</h5>
 				<ul>

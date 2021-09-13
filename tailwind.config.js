@@ -6,9 +6,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-pattern': "url('"
-      }
+      backgroundImage: {}
     },
   },
   variants: {

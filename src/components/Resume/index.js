@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 function Resume() {
 	return (
 		<section>
-			<div className="align">
+			<div className="resume">
 				<h1 className="text-3xl font-bold text-blue-700 p-8 bg-gradient-to-r from-blue-200 via-yellow-300 to-blue-200">My Resume</h1>
-			</div>
-			{/* <div>
-				<a href={require("../../assets/documents/mark-resume.PDF")} download>
-					<h4>Download Resume</h4>
+				<div className="text-xl underline font-bold text-blue-700 p-4 bg-gradient-to-r from-blue-200 via-yellow-300 to-blue-200">
+				<a href={require("../../components/files/mark-resume.pdf")} download>
+					<h5>Download Resume</h5>
 				</a>
-			</div> */}
+				</div>
+			</div>
+			
+				
+			
 			<div className="p-8 bg-gradient-to-r from-yellow-300 via-blue-200 to-yellow-300">
 				<h3 className="text-xl underline text-blue-700">Front-End Proficiencies</h3>
 				<ul>

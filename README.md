@@ -25,6 +25,9 @@ npm install
 ## Usage
 This can be used as a base for anyones portfolio.  I used tailwind css to style the page, which saves coders time and cuts out a lot of unnecessary css code.
 
+## Deployed
+
+
 ## Screenshot
 <img width="1727" alt="Screen Shot 2021-09-14 at 11 15 53 AM" src="https://user-images.githubusercontent.com/81338255/133284959-998e0b24-e103-4eb5-a0bc-4c49505b6ca5.png">
 

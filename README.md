@@ -26,6 +26,7 @@ npm install
 This can be used as a base for anyones portfolio.  I used tailwind css to style the page, which saves coders time and cuts out a lot of unnecessary css code.
 
 ## Deployed
+https://marksherm04.github.io/react-portfolio/
 
 
 ## Screenshot
